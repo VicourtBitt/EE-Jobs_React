@@ -1,6 +1,8 @@
 import styled from "styled-components";
 // import { ThemeProvider } from "styled-components";
 import Header from "./Components/Header/Header";
+import HomeMainBox from "./Components/HomeMainBanner/HomeMainBanner";
+import BannerContent from "./Components/BannerContent/BannerContent.styled";
 
 // Create ThemeProvider later
 
@@ -14,6 +16,12 @@ function App() {
     	<>
 			<AppContainer>
 				<Header />
+				<HomeMainBox>
+					<BannerContent
+						flexD=""
+						w=""
+					/>
+				</HomeMainBox>
 			</AppContainer>
     	</>
   	);

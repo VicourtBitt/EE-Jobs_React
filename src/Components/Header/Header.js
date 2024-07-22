@@ -8,7 +8,7 @@ const HeaderBox = styled.div`
     justify-content: space-around;
     height: 140px;
     width: 100%;
-    background: #c6c6c6;
+    background: #6C757D;
 `
 
 function Header() {

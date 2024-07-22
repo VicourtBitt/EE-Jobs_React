@@ -24,13 +24,5 @@ const DropBtn = styled.button`
     }
 `
 
-function NavigationDropBtn() {
-    return (
-        <DropBtn
-        id="btnDropDown">
-        ≡ 
-        </DropBtn>
-    )
-}
-
-export default NavigationDropBtn;
+// ≡
+export default DropBtn;

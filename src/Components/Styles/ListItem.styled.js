@@ -8,7 +8,10 @@ const ListItem = styled.li`
 
     @media (max-width: 575.8px) {
         display: block;
-        width: 90px;
+        background: #c6c6c6;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 100px;
     }
 `
 

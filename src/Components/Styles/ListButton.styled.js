@@ -13,8 +13,7 @@ const ItemButton = styled.button`
     transition: 500ms;
 
     &:hover {
-        transform: scale(0.9);
-        box-shadow: 0 0 5px black;
+        transform: scale(1.1);
     }
 ` 
 
