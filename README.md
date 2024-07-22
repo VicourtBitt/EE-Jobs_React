@@ -1,0 +1,2 @@
+# EE-Jobs but with React
+Yes, I'm studying React and StyledComponents, so through my "Break-Time" I'll manage to create some simple projects using React. I know that React may be a difficult choice, because it has many "scalability flaws", although, having in mind that I'll only use this in a "small" enviroment then everything should be fine.
