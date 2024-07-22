@@ -10,16 +10,4 @@ const BannerBox = styled.div`
     height: 95%;
 `
 
-function BannerContent({flexD, w}) {
-    return (
-        <BannerBox
-            flexD={flexD}
-            w={w}
-        >
-                <HomeMainText/>
-                <HomeMainImage />
-        </BannerBox>
-    )
-}
-
-export default BannerContent;
+export default BannerBox;

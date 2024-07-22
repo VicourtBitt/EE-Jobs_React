@@ -18,7 +18,7 @@ function Logo() {
                 src={LogoSVG}
                 alt="Logo"
             />
-            <LogoText>Jobs</LogoText>
+            <LogoText>React</LogoText>
         </LogoBox>
     )
 }
