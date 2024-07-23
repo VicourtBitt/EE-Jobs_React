@@ -13,6 +13,10 @@ const HomeMainTextBox = styled.div`
     justify-content: space-around;
     align-items: center;
 
+    @media (min-width: 575.8px) {
+        width: 100%
+    }
+
     @media (max-width: 767.8px) {
         width: 100%
     }

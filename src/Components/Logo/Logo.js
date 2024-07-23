@@ -9,6 +9,8 @@ const LogoBox = styled.div`
     align-items: center;
     width: 280px;
     height: 120px;
+
+    
 `
 
 function Logo() {

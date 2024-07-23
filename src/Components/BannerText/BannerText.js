@@ -12,8 +12,13 @@ const BannerTextBox = styled.div`
     justify-content: space-around;
     align-items: center;
 
-    @media (max-width: 767.8px) {
-        width: 100%
+    @media (max-width: 575.8px) {
+        width: 100%;
+        height: 50%;
+    }
+
+    @media (min-width: 576px) and (max-width: 767.8px) {
+        width: 60%;
     }
 `
 

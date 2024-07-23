@@ -8,6 +8,15 @@ const BannerImageBox = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 575.8px) {
+        width: 100%;
+        height: 50%;
+    }
+
+    @media  (max-width: 767.8px) {
+        width: 40%;
+    }
 `
 
 function BannerImage(){

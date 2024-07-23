@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import HomeMainText from "../HomeMainText/HomeMainText";
-import HomeMainImage from "../HomeMainImage/HomeMainImage";
 
 const BannerBox = styled.div`
     max-width: 1200px;
@@ -8,6 +6,11 @@ const BannerBox = styled.div`
     flex-direction: ${(props) => props.flexD || "row"};
     width: ${(props) => props.w || "80%"};
     height: 95%;
+
+    @media (max-width: 575.8px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 `
 
 export default BannerBox;
