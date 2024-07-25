@@ -1,16 +1,15 @@
-// import { ThemeProvider } from "styled-components";
-import BodyDefault from "./layout/BodyDefault";
-import MainScreen from "./views/MainScreen";
-
-// Create ThemeProvider later
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./view/HomePage";
+import ContactPage from "./view/ContactPage";
 
 function App() {
-	return (
-    	<>
-			<BodyDefault>
-				<MainScreen />
-			</BodyDefault>
-    	</>
+  	return (
+    	<BrowserRouter>
+      		<Routes>
+			  <Route path="/" element={<HomePage />} />
+			  <Route path="/contact" element={<ContactPage />} />
+      		</Routes>
+    	</BrowserRouter>
   	);
 }
 
